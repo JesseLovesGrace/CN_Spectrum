@@ -1,7 +1,6 @@
 import os
 from packages.spider import answer_spider
 from packages.helpers import get_csv_directory, get_csv_name
-from packages.utils import trans_date, trans_gender, clean_content
 
 
 if __name__ == '__main__':

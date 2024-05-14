@@ -43,8 +43,7 @@ def tran_gender(gender_tag):
 
 def comment_spider(v_result_file, v_answer_list):
     for answer_id in v_answer_list:
-        url0 = 'https://www.zhihu.com/api/v4/answers/{}/root_comments?order=normal&limit=20&offset=0&status=open'.format(
-            answer_id)
+        url0 = 'https://www.zhihu.com/api/v4/answers/{}/root_comments?order=normal&limit=20&offset=0&status=open'.format(answer_id)
         r0 = requests.get(url0, headers=headers)  # Send request/发送请求
         total = r0.json()['common_counts']  # Total number of comments/一共多少条评论
         print('一共{}条评论'.format(total))
