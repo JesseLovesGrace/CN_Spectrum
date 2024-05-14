@@ -4,7 +4,7 @@ import csv
 from docx import Document
 from datetime import datetime
 
-# Directory containing the files
+# Directory containing the doc files
 directory = r'C:\Users\jesse\Desktop\Master Thesis\01_Data\Spectrums\Government_Report\Birth_Related'
 
 # Regular expressions to extract information
@@ -69,4 +69,4 @@ with open(csv_file_path, 'w', encoding='utf-8-sig', newline='') as csv_file:
             except Exception as e:
                 print(f"Error processing file {filename}: {str(e)}")
 
-print("CSV file has been created:", csv_file_path)
+print("CSV file has been created under current project directory:", csv_file_path)

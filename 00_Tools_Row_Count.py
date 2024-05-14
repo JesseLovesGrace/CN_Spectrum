@@ -1,6 +1,7 @@
 import os
 import csv
 
+
 def count_total_rows(directory):
     total_rows = 0
     for filename in os.listdir(directory):
@@ -10,6 +11,7 @@ def count_total_rows(directory):
                 csv_reader = csv.reader(file)
                 total_rows += sum(1 for row in csv_reader)
     return total_rows
+
 
 
 # Example usage
