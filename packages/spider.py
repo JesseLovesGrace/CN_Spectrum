@@ -50,7 +50,7 @@ def answer_spider(v_result_file, v_question_id):
             author_name_list.append(author_name)
             # 答主性别/Gender
             author_gender = answer['target']['author']['gender']
-            author_gender = tran_gender(author_gender)
+            author_gender = trans_gender(author_gender)
             author_gender_list.append(author_gender)
             # 答主粉丝数/Follower_Count
             try:

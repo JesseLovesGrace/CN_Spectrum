@@ -1,5 +1,13 @@
 import os
 
+
+def get_question_id():
+    """
+    Function to get the question ID from the user.
+    """
+    return input("Please enter the question ID (enter 'exit' to quit): ")
+
+
 def get_csv_directory():
     """
     Function to get the directory where the CSV file should be stored.
@@ -13,6 +21,7 @@ def get_csv_directory():
             return csv_directory.strip()
         else:
             print("Directory doesn't exist. Please enter a valid directory.")
+
 
 def get_csv_name(question_id):
     """
