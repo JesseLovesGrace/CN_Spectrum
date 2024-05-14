@@ -1,4 +1,5 @@
-This is my project for Introduction to Digital Humanities and potential could be related to my master thesis.
+This is a research Pan and I have done, which potential could be the topic for our master thesis.
+But for now, it serves as our group project for Introduction to Digital Humanities, and DIP705.
 **********************************
 The research is:
 •	To Understand Public Opinions in China
