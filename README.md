@@ -26,6 +26,7 @@ It has 3 files used in package named packages:
 
 3_ The helper.py is used for getting the additional names for csv file and the directory.
 
+
 When using the webcrawler, you need to first find Zhihu question ID.
 
 For example, this is a question in Zhihu containing 7 posts: 
@@ -33,6 +34,7 @@ For example, this is a question in Zhihu containing 7 posts:
 https://www.zhihu.com/question/587848376
 
 The question ID is the number at the end of the url, which is 587848376.
+
 
 After running the main program, you would need to input the question ID on the terminal. 
 
