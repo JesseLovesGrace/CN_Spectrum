@@ -34,6 +34,6 @@ def get_csv_name(question_id):
             return '知乎回答_{}'.format(question_id)  # Return default name if user just presses Enter
         else:
             # Remove specific illegal characters from the input
-            illegal_chars = ['<', '>', ':', '"', '/', '\\', '|', '?', '*']
+            illegal_chars = ['<', '>', ':', '"', '/', '\\', '|', '?', '*', '，', '？', '。']
             cleaned_name = ''.join(c for c in additional_name if c not in illegal_chars)
             return '知乎回答_{}_{}'.format(question_id, cleaned_name.strip())
