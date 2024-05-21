@@ -1,6 +1,14 @@
 This is a research Pan and I have done, which potential could be the topic for our master thesis.
 But for now, it serves as our group project for Introduction to Digital Humanities, and DIP705.
 **********************************
+Name: Fengdi
+
+Surname: Huang
+
+Student ID: 231AHG003
+
+Project Name: CN_Spectrum
+**********************************
 The research is:
 
 •	To Understand Public Opinions in China
