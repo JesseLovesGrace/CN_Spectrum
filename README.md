@@ -22,6 +22,9 @@ The research is:
 2.	And if it is intentional, does this intentional behavior actually show the priorities of the government, or potential concerns.
 
 **********************************
+The Jupyternotebook files are under Topics Folder where you can see the visualization.
+**********************************
+
 About the webcrawler:
 
 The webcrawler for Zhihu answers is named 01_Zhihu_Answer_SpiderV2.py
