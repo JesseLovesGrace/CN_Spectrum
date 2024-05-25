@@ -22,6 +22,17 @@ The research is:
 2.	And if it is intentional, does this intentional behavior actually show the priorities of the government, or potential concerns.
 
 **********************************
+The results and visualization:
+
+The results are catigorized and put in seperate folders under Topic. 
+
+You can check the result directly from the Jupyter Notebook.
+
+The code is done with the help of ChatGPT, so the variable naming could be a little bit messy.
+
+I'll refactor them when I have the time, but so far, they get the job done.
+**********************************
+
 About the webcrawler:
 
 The webcrawler for Zhihu answers is named 01_Zhihu_Answer_SpiderV2.py
@@ -52,16 +63,7 @@ The file would be stored as a CSV file to the directory you wish or the current 
 
 And one more thing, make sure to use "utf-8-sig" instead of any other endocding format.
 
-**********************************
-The results and visualization:
 
-The results are catigorized and put in seperate folders under Topic. 
-
-You can check the result directly from the Jupyter Notebook.
-
-The code is done with the help of ChatGPT, so the variable naming could be a little bit messy.
-
-I'll refactor them when I have the time, but so far, they get the job done.
 
 **********************************
 
