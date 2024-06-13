@@ -5,7 +5,7 @@ from docx import Document
 from datetime import datetime
 
 # Directory containing the doc files
-directory = r'C:\Users\jesse\Desktop\Master Thesis\01_Data\Spectrums\Government_Report\Birth_Related'
+directory = r'C:\Users\jesse\Desktop\Master Thesis\01_Data\Spectrums\Government_Report\Organ_Donation'
 
 # Regular expressions to extract information
 index_number_pattern = r'索\s+引\s+号：\s*(.*?)\s+'
